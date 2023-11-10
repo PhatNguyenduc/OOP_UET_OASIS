@@ -20,6 +20,8 @@ public class Week10 {
         if (lines[0].equals("package com.nordstrom.common.jdbc.utils;")) {
             List<String> res = new ArrayList<>();
             String l = "";
+
+            //cắn 1 test
             l += "update(com.nordstrom.common.jdbc.utils.QueryAPI,java.lang.Object), "
                    + "getInt(com.nordstrom.common.jdbc.utils.QueryAPI,java.lang.Object), "
                    + "getString(com.nordstrom.common.jdbc.utils.QueryAPI,java.lang.Object), "
